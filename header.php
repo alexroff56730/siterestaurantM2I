@@ -20,7 +20,7 @@
                 <li>
                     <a href="index.php">Accueil</a>
                     <a href="#">Hotel</a>
-                    <a href="#">contact</a>
+                    <a href="contact.php">contact</a>
                     <a href="#">à propos</a>
                 </li>
             </ul>
