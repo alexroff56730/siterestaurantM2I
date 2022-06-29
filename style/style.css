@@ -41,7 +41,7 @@ body {
 }
 
 .entete .header-menu {
-    width: 90%;
+    width: 71%;
     padding: 60px;
 }
 
@@ -61,4 +61,21 @@ body {
 
 .entete .header-menu ul li a:hover {
     color: gold;
+}
+
+.corps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.corps .product {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-top: 15px;
 }
