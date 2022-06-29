@@ -37,7 +37,7 @@ body {
 }
 
 .entete .header-menu {
-    width: 80%;
+    width: 90%;
     padding: 30px;
 }
 
@@ -48,14 +48,11 @@ body {
     align-items: center;
 }
 
-.entete .header-menu ul li {
-    margin-left: 15px;
-}
-
 .entete .header-menu ul li a {
     font-size: 1.5em;
     color: white;
     text-transform: uppercase;
+    margin-left: 30px;
 }
 
 .entete .header-menu ul li a:hover {
