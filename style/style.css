@@ -25,7 +25,7 @@ body {
 }
 
 .entete .fig {
-    max-width: 10%;
+    width: 10%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -33,6 +33,11 @@ body {
 
 .entete .fig img {
     width: 100%;
+}
+
+.entete .fig h1 {
+    font-size: 14px;
+    padding-top: 15px;
 }
 
 .entete .header-menu {
@@ -56,6 +61,14 @@ body {
 
 .entete .header-menu ul li a:hover {
     color: gold;
+}
+
+.firstP h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.0em;
+    margin-top: 20px;
 }
 
 .corps {
@@ -93,4 +106,28 @@ body {
 .corps .product figcaption {
     font-size: 1.0em;
     color: white;
+    padding-bottom: 20px
+}
+
+.corps .product ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.corps .product ul li .btn {
+    border: solid 1px red;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: rgb(55, 38, 38);
+}
+
+.corps .product ul li .btn:hover {
+    background-color: rgb(182, 175, 175);
+    color: black;
 }
