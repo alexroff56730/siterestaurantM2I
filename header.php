@@ -18,7 +18,8 @@
         <nav class="header-menu">
             <ul>
                 <li>
-                    <a href="index.html">Accueil</a>
+                    <a href="index.php">Accueil</a>
+                    <a href="#">Hotel</a>
                     <a href="#">contact</a>
                     <a href="#">à propos</a>
                 </li>
