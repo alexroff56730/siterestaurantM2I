@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Arima', cursive;
 }
 
 ul li {
@@ -36,8 +37,9 @@ body {
 }
 
 .entete .fig h1 {
-    font-size: 14px;
+    font-size: 13px;
     padding-top: 15px;
+    text-align: center;
 }
 
 .entete .header-menu {
@@ -206,6 +208,7 @@ div label {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 .pied-de-page div a img {

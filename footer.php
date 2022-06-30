@@ -10,7 +10,7 @@
         <nav>
             <ul>
                 <li><a class="btn" href="index.php">accueil</a></li>
-                <li><a class="btn" href="#">hotel</a></li>
+                <li><a class="btn" href="hotel.php">hotel</a></li>
                 <li><a class="btn" href="contact.php">contact</a></li>
                 <li><a class="btn" href="#">à propos</a></li>
             </ul>
