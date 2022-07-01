@@ -1,7 +1,7 @@
 <?php
     include "header.php";
 
-    if(!isset($_POST['sub'])) {
+    if(isset($_POST['sub'])) {
         $email = $_POST['Email'];
         $name = $_POST['name'];
         $fName = $_POST['fName'];
