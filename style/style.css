@@ -199,6 +199,20 @@ div label {
     align-items: flex-end;
 }
 
+.contact-form .notif {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(78, 189, 78);
+}
+
+.tempImg {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .pied-de-page {
     background-color: white;
     width: 80%;

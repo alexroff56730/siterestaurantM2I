@@ -24,7 +24,7 @@
                     <a href="index.php">Accueil</a>
                     <a href="hotel.php">Hotel</a>
                     <a href="contact.php">contact</a>
-                    <a href="#">à propos</a>
+                    <a href="about.php">à propos</a>
                 </li>
             </ul>
         </nav>

@@ -3,7 +3,9 @@
 ?>
 
     <section class="secondP">
+        
         <form class="contact-form" action="">
+            <div class="notif" id="notif"></div>
             <h2>Nous Contactez</h2>
 
             <div class="firstChamps">
@@ -35,7 +37,7 @@
 
             <div class="valide">
                 <input class="btn" type="reset" value="annuler">
-                <input class="btn" type="submit" value="envoyer">
+                <input class="btn" type="button" value="envoyer" onclick="send()">
             </div>
 
         </form>
