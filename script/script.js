@@ -14,3 +14,7 @@ function send() {
         document.getElementById("notif").style.backgroundColor="#b35454";
     }
 }
+
+function reserv() {
+    open("https://127.0.0.1/sitewebM2i/contact.php");
+}
