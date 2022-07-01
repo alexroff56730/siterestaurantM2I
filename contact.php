@@ -10,8 +10,8 @@
 
         if(!empty($email) && !empty($name) && !empty($fName) && !empty($MSG)) {
             $to = $email;
-            $headers = 'From: webmaster@example.com' . "\r\n" .
-                        'Reply-To: webmaster@example.com' . "\r\n" .
+            $headers = 'From: alexandreroffiaen@gmail.com' . "\r\n" .
+                        'Reply-To: alexandreroffiaen@gmail.com' . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
             mail($to, $sujet, $MSG, $headers);
