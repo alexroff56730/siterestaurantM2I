@@ -1,10 +1,27 @@
 <?php
     include "header.php";
+
+    if(isset($_POST['sub'])) {
+        $email = $_POST['Email'];
+        $name = $_POST['name'];
+        $fName = $_POST['fName'];
+        $sujet = $_POST['sujet'];
+        $MSG = $_POST['MSG'];
+
+        if(!empty($email) && !empty($name) && !empty($fName) && !empty($MSG)) {
+            $to = $email;
+            $headers = 'From: webmaster@example.com' . "\r\n" .
+                        'Reply-To: webmaster@example.com' . "\r\n" .
+                        'X-Mailer: PHP/' . phpversion();
+
+            mail($to, $sujet, $MSG, $headers);
+        }
+    }
 ?>
 
     <section class="secondP">
         
-        <form class="contact-form" action="">
+        <form class="contact-form" method="POST" action="">
             <div class="notif" id="notif"></div>
             <h2>Nous Contactez</h2>
 
@@ -37,7 +54,7 @@
 
             <div class="valide">
                 <input class="btn" type="reset" value="annuler">
-                <input class="btn" type="button" value="envoyer" onclick="send()">
+                <input class="btn" type="button" name="sub" value="envoyer" onclick="send()">
             </div>
 
         </form>
