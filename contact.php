@@ -54,7 +54,7 @@
 
             <div class="valide">
                 <input class="btn" type="reset" value="annuler">
-                <input class="btn" type="button" name="sub" value="envoyer" onclick="send()">
+                <input class="btn" type="submit" name="sub" value="envoyer" onclick="send()">
             </div>
 
         </form>
