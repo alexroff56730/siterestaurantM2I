@@ -14,7 +14,7 @@
                         'Reply-To: alexandreroffiaen@gmail.com' . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-            mail($to, $sujet, $MSG, $headers);
+            var_dump(mail($to, $sujet, $MSG, $headers));
         }
     }
 ?>
